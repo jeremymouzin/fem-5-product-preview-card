@@ -140,3 +140,41 @@ button[type="submit"] {
 button[type="submit"] svg {
   margin-inline-end: 1.1rem;
 }
+
+@media screen and (min-width: 850px) {
+  main {
+    display: flex;
+    max-inline-size: 600px;
+    margin-block-start: 17.5rem;
+  }
+
+  .category {
+    position: relative;
+    top: -2px;
+    left: -1px;
+  }
+
+  header, article {
+    flex-basis: 50%;
+  }
+
+  article {
+    padding: 3.2rem;
+  }
+
+  h1 {
+    margin-block-start: 1.7rem;
+  }
+
+  .description {
+    margin-block-start: 2.4rem;
+  }
+
+  .prices {
+    margin-block-start: 2rem;
+  }
+
+  button[type="submit"] {
+    margin-block-start: 2.2rem;
+  }
+}
