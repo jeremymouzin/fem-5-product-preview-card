@@ -141,7 +141,7 @@ button[type="submit"] svg {
   margin-inline-end: 1.1rem;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 700px) {
   main {
     display: flex;
     max-inline-size: 600px;
