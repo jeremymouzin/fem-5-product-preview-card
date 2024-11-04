@@ -1,0 +1,138 @@
+/* CSS Reset */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+img, picture, video, canvas, svg, iframe {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Variables */
+
+:root {
+  --color-green: hsl(158, 36%, 37%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-dark-blue: hsl(212, 21%, 14%);
+  --color-dark-greyish-blue: hsl(228, 12%, 48%);
+  --color-white: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: var(--color-cream);
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+main {
+  margin: 2.8rem 1.6rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--color-white);
+}
+
+article {
+  padding: 2.3rem 2.4rem;
+}
+
+.category {
+  text-transform: uppercase;
+  color: var(--color-dark-greyish-blue);
+  letter-spacing: 5px;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1;
+  font-weight: 500;
+  margin-block-start: 1rem;
+}
+
+.description {
+  color: var(--color-dark-greyish-blue);
+  font-weight: 700;
+  margin-block-start: 1.6rem;
+  line-height: 1.65;
+  letter-spacing: -.25px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin-block-start: 1.5rem;
+}
+
+.price {
+  color: var(--color-green);
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+}
+
+.full-price {
+  margin-inline-start: 1.9rem;
+  letter-spacing: -.5px;
+  text-decoration: line-through;
+  color: var(--color-dark-greyish-blue);
+}
+
+button[type="submit"] {
+  background-color: var(--color-green);
+  display: block;
+  border-radius: 8px;
+  border: none;
+  color: var(--color-white);
+  text-align: center;
+  width: 100%;
+  line-height: 4.6rem;
+  font-weight: bold;
+  margin-block-start: 1.2rem;
+}
+
+button[type="submit"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button[type="submit"] svg {
+  margin-inline-end: 1.1rem;
+}
