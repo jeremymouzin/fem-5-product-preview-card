@@ -50,6 +50,9 @@ body {
   font-weight: 500;
   font-style: normal;
   background-color: var(--color-cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -67,6 +70,7 @@ main {
   border-radius: 10px;
   overflow: hidden;
   background-color: var(--color-white);
+  max-inline-size: 65ch;
 }
 
 article {
